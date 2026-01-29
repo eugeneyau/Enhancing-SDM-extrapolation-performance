@@ -1,7 +1,7 @@
 # Enhancing extrapolation capability of species distribution models – guidance through algorithm, variable, and ensemble modelling decisions
 
 ### Eugene Yu Hin Yau, Alice C Hughes, Timothy C Bonebrake
-[![](https://img.shields.io/badge/Citation-Ecography-blue)](https://doi.org/link)
+[![](https://img.shields.io/badge/Citation-Journal_name-blue)](https://doi.org/link)
 
 Species distribution models (SDMs) are useful tools to predict species’ potential distributions in unsampled, novel environments (e.g., future climates). However, data available often fail to represent the full range of viable environments for various reasons, including sampling biases, biogeographic barriers, and the availability of potentially suitable habitats. Therefore, many SDMs are likely based on truncated fundamental niche and will have to extrapolate in unsampled environments, ultimately over- or under-estimating species’ distributions, especially under climate change.
 <br /><br />
@@ -12,7 +12,7 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
 
  
 
-<img align="left" src="https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/readme_figs/Updated%20diversity%20diff%20EMmean.png" width=900>    
+<img align="left" src="https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/readme_figs/Updated%20diversity%20diff%20EMmean.png" width=1000>    
 
 <br />
 <br />
@@ -28,8 +28,7 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
 <br />
 <br />
 <br />
-<br />
-<br />
+
 
 
 
@@ -37,7 +36,7 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
 
 # Table of Contents
 
-- Tropical Asian butterfly occurrence records from [Yau et al. (2024)](https://ecoevorxiv.org/repository/view/7470/). 
+- Tropical Asian butterfly occurrence records from [Yau et al. (2024)](https://doi.org/10.1038/s41597-025-05333-w). 
   - [`Tropical Asian Butterfly Occurrence Database`](https://doi.org/10.6084/m9.figshare.25037645)
 - R scripts used in this paper:
   - [`Code/Virtual species`](https://github.com/)
