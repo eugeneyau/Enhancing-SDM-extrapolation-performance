@@ -1,6 +1,8 @@
 # Enhancing extrapolation capability of species distribution models – guidance through algorithm, variable, and ensemble modelling decisions
 
-### Eugene Yu Hin Yau, Alice C Hughes, Timothy C Bonebrake
+### Eugene Yu Hin Yau, Alice C Hughes, Timothy C Bonebrake*
+*Correspondence: tbone@hku.hk
+
 [![](https://img.shields.io/badge/Citation-Journal_name-blue)](https://doi.org/link)
 
 Species distribution models (SDMs) are useful tools to predict species’ potential distributions in unsampled, novel environments (e.g., future climates). However, data available often fail to represent the full range of viable environments for various reasons, including sampling biases, biogeographic barriers, and the availability of potentially suitable habitats. Therefore, many SDMs are likely based on truncated fundamental niche and will have to extrapolate in unsampled environments, ultimately over- or under-estimating species’ distributions, especially under climate change.
