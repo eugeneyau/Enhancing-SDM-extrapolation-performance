@@ -46,24 +46,18 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
 
-  - Step 4 -- Generate virtual species [`Code/Step1`](https://github.com/)
+  - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/)
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
 
-  - [`Code/Step1`](https://github.com/)
-     - [`R Markdown file`](https://github.com/)
-     - [`R script`](https://github.com/)
-
-  - [`Code/Step1`](https://github.com/)
-     - [`R Markdown file`](https://github.com/)
-     - [`R script`](https://github.com/)
-
-  - [`Code/Step1`](https://github.com/)
+  - Step 6 -- Visualise results [`Code/Step5`](https://github.com/)
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
   
 - All files essential for running our R scripts can be downloaded from our [`Figshare repository (TrunSDMsupp_files.zip)`](https://figshare.com/s/feef1f9467edabf71a97) before running our codes
+
 - Tropical Asian butterfly occurrence records from [Yau et al. (2025)](https://doi.org/10.1038/s41597-025-05333-w) can be downloaded [`here`](https://doi.org/10.6084/m9.figshare.25037645)
+
 - JavaScript code used in Google Earth Engine to extract and filter Landsat data for use as SDM variable (NDVImean) can be accessed from [`Google Earth Engine`](https://code.earthengine.google.com/7e1c649f06f22536419886e34a14d830) or download code from here:[`Code/Variables`](https://github.com/eugeneyau/Enhancing-SDM-transferability/blob/main/Code/Variables/GEE_NDVImean.txt)
 
 <img align="left" src="https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/readme_figs/Methods%20flowchart%20github.png" width=800>    
