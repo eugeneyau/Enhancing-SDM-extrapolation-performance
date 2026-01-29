@@ -36,7 +36,7 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
 
 # Table of Contents
 
-- Tropical Asian butterfly occurrence records from [Yau et al. (2024)](https://doi.org/10.1038/s41597-025-05333-w). 
+- Tropical Asian butterfly occurrence records from [Yau et al. (2025)](https://doi.org/10.1038/s41597-025-05333-w). 
   - [`Tropical Asian Butterfly Occurrence Database`](https://doi.org/10.6084/m9.figshare.25037645)
 - R scripts used in this paper:
   - [`Code/Virtual species`](https://github.com/)
