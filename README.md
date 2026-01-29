@@ -12,7 +12,7 @@ Niche truncation resulted in a 41.5% increase in mean SDM inaccuracy when 21.7% 
 
  
 
-<img align="left" src="https://github.com/eugeneyau/Enhancing-SDM-transferability/blob/main/readme_images/trunc%20range%20diff.png" width=900>    
+<img align="left" src="https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/readme_figs/Updated%20diversity%20diff%20EMmean.png" width=900>    
 
 <br />
 <br />
