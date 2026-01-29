@@ -38,15 +38,15 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
 ## Table of Contents
 
 - R scripts used in this study:
-  - [`Code/Step1`](https://github.com/)
+  - Step 1 -- Generate virtual species [`Code/Step1`](https://github.com/)
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
 
-  - [`Code/Step1`](https://github.com/)
+  - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/)
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
 
-  - [`Code/Step1`](https://github.com/)
+  - Step 4 -- Generate virtual species [`Code/Step1`](https://github.com/)
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
 
