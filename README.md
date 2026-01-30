@@ -44,11 +44,16 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
 
   - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4)
 <br /><br />
-  latitude
-     - [`R Markdown file`](https://github.com/)
-       - [`R Markdown file`](https://github.com/)
-     - [`R script`](https://github.com/)
+  **Latitudinal data truncation by percentage of data** [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
+     - SDM algorithm (tuned) -- [``](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_tuned)
+     - [`SDM algorithm (untuned)`](https://github.com/)
+     - [`Choice of variable`](https://github.com/)
+     - [`Ensemble algorithm and TSS threshold`](https://github.com/)
+<br /><br />
 
+  **Latitudinal data truncation by fixed latitude range** [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
+     - SDM algorithm (tuned) -- [``](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_tuned)
+ 
 
   - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step5)
      - [`R Markdown file`](https://github.com/)
