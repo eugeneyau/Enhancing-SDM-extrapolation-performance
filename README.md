@@ -43,8 +43,12 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
      - [`Generate PC-based virtual species`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/SEAbfyTrun_BASE_PC_hpc18_1.R)
 
   - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4)
+<br /><br />
+  latitude
      - [`R Markdown file`](https://github.com/)
+       - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
+
 
   - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step5)
      - [`R Markdown file`](https://github.com/)
