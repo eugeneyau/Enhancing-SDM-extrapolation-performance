@@ -50,7 +50,7 @@ Niche truncation, caused by the deletion of southernmost 20% occurrence data, in
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
 
-  - Step 6 -- Visualise results [`Code/Step5`](https://github.com/)
+  - Step 6 -- Visualise results [`Code/Step6`](https://github.com/)
      - [`R Markdown file`](https://github.com/)
      - [`R script`](https://github.com/)
   
