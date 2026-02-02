@@ -41,10 +41,10 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
   - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4)
 <br /><br />
   **Latitudinal data truncation by percentage of data** [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
-     - SDM algorithm (tuned) -- [``](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_tuned)
-     - [`SDM algorithm (untuned)`](https://github.com/)
-     - [`Choice of variable`](https://github.com/)
-     - [`Ensemble algorithm and TSS threshold`](https://github.com/)
+     - SDM algorithm (tuned) -- [`/Test_SDM_algorithms_tuned`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_tuned)
+     - SDM algorithm (untuned) -- [`/Test_SDM_algorithms_untuned`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_untuned)
+     - Choice of environmental variables -- [`/Test_env_variables`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_env_variables)
+     - Ensemble methods -- [`/Test_ensemble_methods`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_ensemble_methods)
 <br /><br />
 
   **Latitudinal data truncation by fixed latitude range** [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
