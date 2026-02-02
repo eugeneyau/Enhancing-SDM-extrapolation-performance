@@ -18,7 +18,7 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
   - Step 1 -- Generate virtual species [`Code/Step1`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step1)
      - Generate [`variable-based`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/SEAbfyTrun_BASE_hpc18_1.R) or [`PC-based`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/SEAbfyTrun_BASE_PC_hpc18_1.R) virtual species
      - [`Generate sample size`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_gen_%20occ_sample_size.R) for variable-based/PC-based virtual species
-     - [`Generate PC`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_getPCs.R) for PC-based virtual species
+     - [`Generate PC`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_getPCs.R) for building PC-based virtual species
    
   - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4)
     - Latitudinal data truncation by percentage of data [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)<br /><br />
