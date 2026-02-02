@@ -47,10 +47,10 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
      [`Density plot for performance of different ensemble methods`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_EM_ggplot.R)<br />
    
    - Step 7 -- Additional analysis [`Code/Step7`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step7)
-     - Figure 2. Alpha diversity trends under different levels of niche truncation -- [`R script`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_trunlevel.R)
-     - Figure 3. Extrapolation performance of different SDM algorithms -- [`R script`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_algo_FPFN_barplot.R)
+     - Calculate variable importance for Table 2 -- [`R script`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_var_imp.R)
+     - Calculate VIF for all environmental variables (both relevant and noise variables) -- [`R script`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_VIF.R)
   
-- All files essential for running our R scripts can be downloaded from our [`Figshare repository (TrunSDMsupp_files.zip)`](https://figshare.com/s/feef1f9467edabf71a97) before running our codes
+- **[NEED UPDATE] All files essential for running our R scripts can be downloaded from our [`Figshare repository (TrunSDMsupp_files.zip)`](https://figshare.com/s/feef1f9467edabf71a97) before running our codes**
 
 - Tropical Asian butterfly occurrence records from [Yau et al. (2025)](https://doi.org/10.1038/s41597-025-05333-w) can be downloaded [`here`](https://doi.org/10.6084/m9.figshare.25037645)
 
