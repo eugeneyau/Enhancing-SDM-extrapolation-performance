@@ -21,7 +21,7 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
      - [`Generate PC`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_getPCs.R) for building PC-based virtual species
    
   - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4)
-    - Latitudinal data truncation by percentage of data [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)<br /><br />
+    - Latitudinal data truncation by percentage of data [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)<br />
       SDM algorithm (tuned) -- [`/Test_SDM_algorithms_tuned`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_tuned)
       <br />
       SDM algorithm (untuned) -- [`/Test_SDM_algorithms_untuned`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_untuned)
@@ -29,7 +29,7 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
       Choice of environmental variables -- [`/Test_env_variables`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_env_variables)
       <br />
       Ensemble methods -- [`/Test_ensemble_methods`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_ensemble_methods)
-      <br /><br />
+      <br />
     - Latitudinal data truncation by fixed latitude range [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
   
    - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step5)
