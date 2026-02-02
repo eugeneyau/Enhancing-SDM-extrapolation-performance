@@ -34,10 +34,11 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
    - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step5)
      - [`SDM algorithm`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_algo_V2.R)
      - [`Choice of environmental variables`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_noise.R)
-     - [`Ensemble methods`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_EM.R)
+     - [`Ensemble methods (all algorithms)`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_EM.R)
+     - [`Ensemble methods (selected algorithms)`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_get_selectedalgo_EM.R)
 
   - Step 6 -- Visualise results [`Code/Step6`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step6)
-     - Figure 2. Distortion of modelled alpha diversity trends[`R Markdown file`](https://github.com/)
+     - Figure 2 -- [`R Markdown file`](https://github.com/)
      - Figure 3. Extrapolation performance of different SDM algorithms[`R Markdown file`](https://github.com/)
      - Figure 4. Best 4 SDM algorithm performance when ensembled using different ensemble methods[`R Markdown file`](https://github.com/)
      - Supplementary <br />
