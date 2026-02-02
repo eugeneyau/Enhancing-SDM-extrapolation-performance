@@ -15,8 +15,6 @@ options(scipen = 999)
 #save.filename <- "EM_bmod424_PCvspEMmean_trunc_rev_SOUTH_trun20perc" # All untuned algo
 #save.filename.selectedalgo <- "EM_bmod424_PCvspEMmean_trunc_rev_best4algo2_SOUTH_trun20perc" # Selected untuned algo
 
-save.filename.selectedalgo <- "NA" # Selected untuned algo
-
 save.filename <- "EM_bmod424_trunc_rev_SOUTH_trun20perc" # All untuned algo
 save.filename.selectedalgo <- "EM_bmod424_trunc_rev_bestalgo_SOUTH_trun20perc" # Selected untuned algo
 
@@ -185,4 +183,5 @@ ggplot(data = barplot.df) +
                     labels=c("False positive      ","False negative      "))
 
 ggsave("EM_best_FPFNbar_count_mean_staked.png", width = 28, height = 22, units = "cm", dpi = 800)
+
 
