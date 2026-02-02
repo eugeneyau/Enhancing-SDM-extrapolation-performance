@@ -8,28 +8,7 @@
 Species distribution models (SDMs) are useful tools to predict species’ potential distributions in unsampled, novel environments (e.g., future climates). However, data available often fail to represent the full range of viable environments for various reasons, including sampling biases, biogeographic barriers, and the availability of potentially suitable habitats. Therefore, many SDMs are likely based on truncated fundamental niche and will have to extrapolate in unsampled environments, ultimately over- or under-estimating species’ distributions, especially under climate change. To identify optimal modelling decisions to maximize SDM extrapolation performance, we generated 984 virtual species, then subsampled virtual occurrences from the northernmost 80% virtual presences to deliberately generate a dataset representing truncated niche. This dataset was used to train SDMs which extrapolate in unsampled environments. This workflow allows us to test how different SDM algorithms, SDM ensemble methods, and variable selection strategies improve SDM extrapolation performance. Niche truncation, caused by the deletion of southernmost 20% occurrence data, increased inaccurate predictions by more than 50%. We found that SDMs tend to overpredict species distributions when extrapolating in unsampled environments, distorting our estimation of climate change response and invasion risk. Depending on modelling goals, we suggest using different sets of SDM algorithms to minimize either overprediction or underprediction when extrapolating SDMs. Models ensembled differently can significantly affect SDM extrapolation performance, therefore such variation should be reported. While niche truncation is best minimized by using data more representative of species’ full range of viable environments, decisions related to algorithm, variable, and ensemble methods can improve model performance. 
 
 <img align="left" src="https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/readme_figs/Updated%20diversity%20diff%20EMmean.png" width=1000>    
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-
-
-
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ## Table of Contents
 
