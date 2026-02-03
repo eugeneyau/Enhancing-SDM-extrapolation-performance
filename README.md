@@ -51,7 +51,7 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
      - Calculate variable importance for Table 2 -- [`R script`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_var_imp.R)
      - Calculate VIF for all environmental variables (both relevant and noise variables) -- [`R script`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_VIF.R)
   
-- **[NEED UPDATE] All files essential for running our R scripts can be downloaded from our [`Figshare repository (TrunSDMsupp_files.zip)`](https://figshare.com/s/feef1f9467edabf71a97) before running our codes**
+- All files essential for running our R scripts can be downloaded from our [`Figshare repository`](https://figshare.com/s/feef1f9467edabf71a97)
 
 - Tropical Asian butterfly occurrence records from [Yau et al. (2025)](https://doi.org/10.1038/s41597-025-05333-w) can be downloaded [`here`](https://doi.org/10.6084/m9.figshare.25037645)
 
