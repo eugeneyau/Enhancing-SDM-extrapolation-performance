@@ -44,9 +44,9 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
      - Figure 3. Extrapolation performance of different SDM algorithms -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_algo_FPFN_barplot.R)
      - Figure 4. Extrapolation performance of selected (4 best-performing) SDM algorithms -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_EM_FPFN_barplot.R)
      - Supplementary<br />
-       [Density plot for performance of different SDM algorithms](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_algo_ggplot.R)<br />
-       [Density plot for performance of different sets of environmental variables](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_noise_ggplot.R)<br />
-       [Density plot for performance of different ensemble methods](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_EM_ggplot.R)<br />
+       Density plot for performance of different SDM algorithms -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_algo_ggplot.R)<br />
+       Density plot for performance of different sets of environmental variables -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_noise_ggplot.R)<br />
+       Density plot for performance of different ensemble methods -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_EM_ggplot.R)<br />
    
    - Step 7 -- Additional analysis [`Code/Step7`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step7)
      - Calculate variable importance for Table 2 -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_var_imp.R)
