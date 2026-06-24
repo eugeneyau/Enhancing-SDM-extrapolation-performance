@@ -1,4 +1,4 @@
-# Maximizing extrapolation capability of species distribution models – guidance through algorithm, variable, and ensemble modelling decisions
+# Optimizing species distribution models for extrapolation – guidance through algorithm, variable, and ensemble modelling decisions
 
 ### [Eugene Yu Hin Yau](https://scholar.google.com.hk/citations?user=dQG4FA4AAAAJ), [Timothy C Bonebrake](https://scholar.google.com.hk/citations?user=B-_yE1YAAAAJ), [Alice C Hughes](https://scholar.google.com.hk/citations?user=jlkGFIIAAAAJ)*
 *Correspondence: alice.c.hughes@unimelb.edu.au
