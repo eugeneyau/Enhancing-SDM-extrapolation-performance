@@ -1,7 +1,6 @@
 library(terra)
 
-filename <- "biomod424_BASE_REV"
-#filename <- "biomod424_BASE_PC"
+filename <- "biomod424_BASE_VIF5"
 wd <- "/lustre1/g/sbs_bonebrake/Eugene/SDM_BASE"
 
 
