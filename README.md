@@ -17,7 +17,8 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
   - Step 0 -- Prepare input data for running SDMs [`Code/Step0`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step0)
   
   - Step 1 -- Generate virtual species [`Code/Step1`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step1)
-     - Generate [variable-based](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/SEAbfyTrun_BASE_hpc18_1.R) or [PCA-based](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/SEAbfyTrun_BASE_PC_hpc18_1.R) virtual species
+     - [Calculate VIF](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step1/SEAbfyTrun_analysis_REV_noise_VIF.R) for all variables
+     - Generate [variable-based](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step1/SEAbfyTrun_BASE_VIF5_hpc18_1.R) or [PCA-based](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step1/SEAbfyTrun_BASE_VIF5_PC_hpc18_1.R) virtual species
      - [Generate sample size](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_gen_%20occ_sample_size.R) for variable-based/PCA-based virtual species
      - [Generate PCs](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_getPCs.R) for building PCA-based virtual species
    
