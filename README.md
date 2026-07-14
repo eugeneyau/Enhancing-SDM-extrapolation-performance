@@ -50,7 +50,7 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
        Density plot for performance of different SDM algorithms -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_algo_ggplot.R)<br />
        Density plot for performance of different sets of environmental variables -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_noise_ggplot.R)<br />
        Density plot for performance of different ensemble methods -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_EM_ggplot.R)<br />
-       Density plot for performance of different binarisation methods -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_BINmethod_FPFN_barplot.R)<br />
+       Bar chart for performance of different binarisation methods -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_BINmethod_FPFN_barplot.R)<br />
        Relationship between training data sample size and SDM extrapolation performance -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_occ_n.R)<br />
    
    - Step 7 -- Additional analysis [`Code/Step7`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step7)
