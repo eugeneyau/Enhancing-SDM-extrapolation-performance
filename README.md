@@ -35,10 +35,11 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
     - Latitudinal data truncation by fixed latitude range [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
   
    - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step5)
-     - [SDM algorithm](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_algo_V2.R)
-     - [Choice of environmental variables](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_noise.R)
-     - [Ensemble methods (all algorithms)](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_EM.R)
-     - [Ensemble methods (selected algorithms)](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step5/SEAbfyTrun_analysis_REV_get_selectedalgo_EM.R)
+     - [SDM algorithm](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_algo.R)
+     - [Choice of environmental variables](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_noise.R)
+     - [Ensemble methods (all algorithms)](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_EM.R)
+     - [Ensemble methods (selected algorithms)](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_get_selectedalgo_EM.R)
+     - [Binarisation method](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_BINmethod.R)
 
   - Step 6 -- Visualise results [`Code/Step6`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step6)
      - Figure 2. Alpha diversity trends under different levels of niche truncation -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step6/SEAbfyTrun_analysis_REV_trunlevel.R)
