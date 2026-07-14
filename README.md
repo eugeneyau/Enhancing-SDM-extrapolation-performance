@@ -14,15 +14,15 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
 ## Table of Contents
 
 - R scripts used in this study:
-  - Step 0 -- Prepare input data for running SDMs [`Code/Step0`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step0)
+  - Step 0 -- Prepare input data for running SDMs [`Code/Step0`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step0)
   
-  - Step 1 -- Generate virtual species [`Code/Step1`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step1)
+  - Step 1 -- Generate virtual species [`Code/Step1`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step1)
      - [Calculate VIF](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step1/SEAbfyTrun_analysis_REV_noise_VIF.R) for all variables
      - Generate [variable-based](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step1/SEAbfyTrun_BASE_VIF5_hpc18_1.R) or [PCA-based](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step1/SEAbfyTrun_BASE_VIF5_PC_hpc18_1.R) virtual species
      - [Generate sample size](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_gen_%20occ_sample_size.R) for variable-based/PCA-based virtual species
      - [Generate PCs](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step1/Supp_Vsp_getPCs.R) for building PCA-based virtual species
    
-  - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4)
+  - Step 2,3,4 -- Sample virtual occurrence datasets from different latitudinal ranges, and construct SDMs from these data, project constructed SDMs to the full latitudinal range [`Code/Step2_3_4`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step2_3_4)
     - Latitudinal data truncation by percentage of data [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)<br />
       SDM algorithm (tuned) -- [`/Test_SDM_algorithms_tuned`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage/Test_SDM_algorithms_tuned)
       <br />
@@ -34,24 +34,25 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
       <br />
     - Latitudinal data truncation by fixed latitude range [`Code/Step2_3_4/Trunc_by_percentage`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step2_3_4/Trunc_by_percentage)
   
-   - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step5)
+   - Step 5 -- Quantify SDM performance [`Code/Step5`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step5)
      - [SDM algorithm](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_algo.R)
      - [Choice of environmental variables](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_noise.R)
      - [Ensemble methods (all algorithms)](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_EM.R)
      - [Ensemble methods (selected algorithms)](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_get_selectedalgo_EM.R)
      - [Binarisation method](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step5/SEAbfyTrun_analysis_VIF5_BINmethod.R)
 
-  - Step 6 -- Visualise results [`Code/Step6`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step6)
+  - Step 6 -- Visualise results [`Code/Step6`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step6)
      - Figure 2. Alpha diversity trends under different levels of niche truncation -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_trunlevel.R)
      - Figure 3. Extrapolation performance of different SDM algorithms -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_algo_FPFN_barplot.R)
      - Figure 4. Extrapolation performance of selected (4 best-performing) SDM algorithms -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_EM_FPFN_barplot.R)
      - Supplementary<br />
+       Pairwise p-value matrices for bar charts -- [`Code/Step6/Pairwise_p-value_matrices`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step6/Pairwise_p-value_matrices)<br />
        Density plot for performance of different SDM algorithms -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_algo_ggplot.R)<br />
        Density plot for performance of different sets of environmental variables -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_noise_ggplot.R)<br />
        Density plot for performance of different ensemble methods -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_EM_ggplot.R)<br />
        Relationship between training data sample size and SDM extrapolation performance -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_occ_n.R)<br />
    
-   - Step 7 -- Additional analysis [`Code/Step7`](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/tree/main/Code/Step7)
+   - Step 7 -- Additional analysis [`Code/Step7`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step7)
      - Calculate variable importance for Table 2 -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_var_imp.R)
      - Calculate VIF for all environmental variables (both relevant and noise variables) -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_VIF.R)
   
