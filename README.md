@@ -53,9 +53,9 @@ Species distribution models (SDMs) are useful tools to predict species’ potent
        Relationship between training data sample size and SDM extrapolation performance -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step6/SEAbfyTrun_analysis_VIF5_occ_n.R)<br />
        Pairwise p-value matrices for bar charts -- [`Code/Step6/Pairwise_p-value_matrices`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step6/Pairwise_p-value_matrices)<br />
    
-   - Step 7 -- Additional analysis [`Code/Step7`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step7)
-     - Calculate variable importance for Table 2 -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_var_imp.R)
-     - Calculate VIF for all environmental variables (both relevant and noise variables) -- [R script](https://github.com/eugeneyau/Enhancing-SDM-extrapolation-performance/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_VIF.R)
+   - Step 7 -- Additional analyses [`Code/Step7`](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/tree/main/Code/Step7)
+     - Calculate variable importance for Table 2 -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step7/SEAbfyTrun_analysis_VIF5_noise_var_imp.R)
+     - Calculate VIF for environmental variables (including noise variables) -- [R script](https://github.com/eugeneyau/Optimizing-species-distribution-models-for-extrapolation/blob/main/Code/Step7/SEAbfyTrun_analysis_REV_noise_VIF.R)
   
 - All files essential for running our R scripts can be downloaded from our [figshare repository](https://figshare.com/s/feef1f9467edabf71a97)
 
